@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+  tasks:
+     - name: check upim
+       command: "uptime"
+       register: uptime
+
+     - name: prin result
+       debug:
+         msg: : "{{ uptime }}"
+
