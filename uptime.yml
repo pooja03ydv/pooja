@@ -8,5 +8,5 @@
 
      - name: prin result
        debug:
-         msg: : "{{ uptime }}"
+         msg: "{{ uptime }}"
 
