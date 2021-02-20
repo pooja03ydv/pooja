@@ -1,1 +1,2 @@
-143.110.180.128 ansible_user=poyadav3
+[client]
+172.31.52.170 ansible_user=ubuntu
